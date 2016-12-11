@@ -1,2 +1,3 @@
 untitled.tex
+figures/adhi2/adhi2.png
 section_Tujuan_instruksional_Mahasiswa_mampu__.tex
