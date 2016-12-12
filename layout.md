@@ -5,4 +5,5 @@ section_Pendahuluan_Uji_akuifer_dengan__.tex
 figures/pumptest1/pumptest1.png
 figures/slugtest/slugtest.png
 figures/supradrilling2/supradrilling2.png
+figures/kh vs kv/kh vs kv.png
 section_Tahapan_dan_perlengkapan_yang__.tex
