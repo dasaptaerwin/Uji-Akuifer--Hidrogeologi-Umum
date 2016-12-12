@@ -2,7 +2,6 @@ untitled.tex
 figures/adhi2/adhi2.png
 section_Tujuan_instruksional_Mahasiswa_mampu__.tex
 section_Pendahuluan_Uji_akuifer_dengan__.tex
-section_Pendahuluan_Uji_akuifer_dengan__1.tex
 figures/pumptest1/pumptest1.png
 figures/slugtest/slugtest.png
 figures/supradrilling2/supradrilling2.png
