@@ -2,4 +2,5 @@ untitled.tex
 figures/adhi2/adhi2.png
 section_Tujuan_instruksional_Mahasiswa_mampu__.tex
 section_Pendahuluan_Uji_akuifer_UA__.tex
+figures/slugtest/slugtest.png
 figures/supradrilling2/supradrilling2.png
