@@ -1,15 +1,13 @@
 \section{Pendahuluan}
 
 Uji akuifer (UA) adalah pengujian properti hidrolik akuifer melalui proses pemompaan (uji pompa), dengan debit tetap maupun debit berubah. Teknik ini diyakini menghasilkan estimasi properti hidrolik akuifer yang paling tepat, serta perhitungan debit sumur optimum atau sering disebut debit aman (\textit{safe yield}). Dengan uji akuifer, kita juga akan mendapatkan profil penurunan MAT dalam proses pemompaan. Dalam jangka panjang, uji akuifer juga diharapkan dapat berkontribusi dalam menata lingkungan secara berkelanjutan. 
-
-
 \subsection{Beberapa definisi}
 
 \subsubsection{Uji akuifer}
 
 \textbf{Uji akuifer} (atau uji pompa) dilaksanakan untuk mengevaluasi karakteristik akuifer dengan menstimulasi akuifer melalui pemompaan dan observasi terhadap respon aquifer berupa penurunan MAT. Pengujian ini juga umum dilakukan oleh hidrogeolog untuk mengkarakterisasi sistem akuifer, akuitar, pola aliran, dan batas aliran (\textit{flow system boundaries}) bila ada. 
 
-Uji pemompaan yang biasa dilaksanakan dalam uji akuifer menggunakan debit konstan pada periode minimum satu hari (atau 24 jam), dengan mengukur MAT pada sumur pantau. Saat air dipompa ke permukaan, maka tekanan dalam akuifer akan menurun. Penurunan ini ditandai dengan penurunan MAT (atau \textit{hydraulic head}) pada sumur pantau. Besarnya penurunan ini akan berkurang dalam radius tertentu dari titik sumur pemompaan, radius ini dinamakan \textbf{radius pengaruh}. Sumur pompa dan sumur pantau memiliki saringan (\textit{screen}) pada akuifer yang sama. 
+Uji pemompaan yang biasa dilaksanakan dalam uji akuifer menggunakan debit konstan pada periode minimum satu hari (atau 24 jam), dengan mengukur MAT pada sumur pantau. Saat air dipompa ke permukaan, maka tekanan dalam akuifer akan menurun. Penurunan ini ditandai dengan penurunan MAT (atau \textit{hydraulic head}) pada sumur pantau. Besarnya penurunan ini akan berkurang dalam radius tertentu dari titik sumur pemompaan, radius ini dinamakan \textbf{radius pengaruh}. Sumur pompa dan sumur pantau memiliki saringan (\textit{screen}) pada akuifer yang sama. Gambar \ref{fig:drilling_truck} memperlihatkan tipikal \textit{truck mounted drilling rig}.
 
 Karakter akuifer yang didapatkan dari pengujian ini mencakup: 
 
@@ -31,7 +29,7 @@ Karakter akuifer yang didapatkan dari pengujian ini mencakup:
 
 \subsubsection{Slug test}
 
-\textbf{A slug test} adalah variasi uji akuifer yang mengamati perubahan MAT secara instan (baik peningkatan maupun penurunan) pada sumur yang sama (sumur produksi). Pengujian ini seringkali dilakukan dalam kegiatan pemetaan geoteknik untuk mendapatkan perkiraan cepat nilai hidrolik dalam skala waktu menit, bukan jam atau hari. Benda yang disebut \textbf{slug} sendiri adalah sebatang besi yang dijatuhkan ke dalam sumur agar muka air tanah berubah, naik untuk kemudian turun kembali ke posisi semula. Perubahan tersebut diukur, sehingga didapatkan kondisi seperti ada pompa di dalam sumur tersebut (\ref{fig:slugtest}).
+\textbf{A slug test} adalah variasi uji akuifer yang mengamati perubahan MAT secara instan (baik peningkatan maupun penurunan) pada sumur yang sama (sumur produksi). Pengujian ini seringkali dilakukan dalam kegiatan pemetaan geoteknik untuk mendapatkan perkiraan cepat nilai hidrolik dalam skala waktu menit, bukan jam atau hari. Benda yang disebut \textbf{slug} sendiri adalah sebatang besi yang dijatuhkan ke dalam sumur agar muka air tanah berubah, naik untuk kemudian turun kembali ke posisi semula. Perubahan tersebut diukur, sehingga didapatkan kondisi seperti ada pompa di dalam sumur tersebut (Gambar \ref{fig:slugtest}).
 
 Beberapa pengujian di atas diintepretasi dengan model analitis  aliran air tanah (the \textit{Theis solution}). Pada kondisi yang lebih kompleks model numerik bisa dipakai (\cite{lebbe1995validation}), namun perlu diingat bahwa model yang lebih rumit tidak menjamin hasil yang lebih baik (\cite{Johnson_2001}\cite{Rushton_1976}\cite{Rathod_1984}\cite{2011}\cite{Lebbe_1999}\cite{Lebbe_1999}). 
 
@@ -55,31 +53,13 @@ Kami tidak akan menguraikan sejarah uji akuifer secara lengkap, namun salah satu
 Asumsi dasar Persamaan Theis untuk menganalisis data penurunan MAT:
 
 \begin{itemize}
-\item Aliran air dalam akuifer memiliki karakteristik sebagaimana dijelaskan dalam Hukum Darcy, misal: aliran homogeneous dan laminar. 
-\item Akuifer bersifat homogen, isotropik, tertekan. 
-\item Sumur menembus akuifer sepenuhnya (\textit{full penetration}) 
-\item the well has zero radius (it is approximated as a vertical line) — therefore no water can be stored in the well,
-\end{itemize}
-\begin{itemize}
-\item the well has a constant pumping rate Q,
-\end{itemize}
-\begin{itemize}
-\item the head loss over the well screen is negligible,
-\end{itemize}
-\begin{itemize}
-\item aquifer is infinite in radial extent,
-\end{itemize}
-\begin{itemize}
-\item horizontal (not sloping), flat, impermeable (non-leaky) top and bottom boundaries of aquifer,
-\end{itemize}
-\begin{itemize}
-\item groundwater flow is horizontal
-\end{itemize}
-\begin{itemize}
-\item no other wells or long term changes in regional water levels (all changes in potentiometric surface are the result of the pumping well alone)
-\end{itemize}
-\begin{itemize}
+\item Aliran air dalam akuifer memiliki karakteristik sebagaimana dijelaskan dalam Hukum Darcy, misal: aliran homogeneous dan laminar, 
+\item Akuifer bersifat homogen, isotropik, tertekan, lapisan akuifer yang dipompa memiliki pelamparan lateral yang tidak terbatas, horizontal (tidak memiliki kemiringan), dibatasi oleh lapisan impermeabel (\textit{non-leaky}) pada bagian atas dan bawah akuifer,
+\item Sumur menembus akuifer sepenuhnya (\textit{full penetration}), memiliki diameter 0 atau diasumsikan sebagai satu garis vertikal yang tidak memiliki diameter, sehingga tidak ada air yang tersimpan di dalamnya,
+\item Debit pemompaan konstan sebesar \verb|Q|,
+\item Perbedaan muka air (\textit{head loss}) di area sekitar saringan sumur (\textit{well screen}) dianggap tidak ada,
+\item Tidak ada sumur lain yang berada di sekitar lokasi yang dapat mempengaruhi posisi MAT, serta tidak ada obyek lainnya di permukaan tanah yang dapat mempengaruhi pengukuran posisi air tanah, misal: rel kereta api, jalan raya, dll.
 \end{itemize}
 
-Even though these assumptions are rarely all met, depending on the degree to which they are violated (e.g., if the boundaries of the aquifer are well beyond the part of the aquifer which will be tested by the pumping test) the solution may still be useful.
+Disadari bahwa asumsi-asumsi di atas jarang dapat dijumpai, namun pendekatan yang diberikan masih dapat digunakan. 
 
